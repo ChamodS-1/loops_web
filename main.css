@@ -1,0 +1,134 @@
+body{
+    font-family: 'Roboto', sans-serif;
+
+    margin: 0;
+    font-size: 18px;
+    background-color: rgb(38, 36, 32);
+  
+}
+
+h1{
+    text-align: center;
+    color: rgb(224, 206, 41);
+}
+
+input,label{
+
+    display: block;
+    font-family: inherit;
+}
+
+.mani-page{
+
+background-color: rgb(213, 208, 169);
+width: 950px;
+height: auto;
+margin: 20px auto;
+padding: 25px;
+border-radius: 7px;
+
+}
+
+input{
+
+    width: 70px;
+    height: auto;
+    padding: 8px;
+    font-size: 20px;
+    border-radius: 7px;
+
+}
+
+#Calculate-sum{
+
+    background-color: rgb(198, 182, 41);;
+    width: fit-content;
+    padding: 12px;
+    border-radius: 7px;
+    
+}
+
+#highlight-links{
+
+    background-color: rgb(198, 182, 41);;
+    width: fit-content;
+    padding: 12px;
+    border-radius: 7px;
+  
+}
+
+#display-data{
+
+    background-color: rgb(198, 182, 41);;
+    width: fit-content;
+    padding: 12px;
+    border-radius: 7px;
+  
+}
+
+#display-Information{
+
+    background-color: rgb(198, 182, 41);;
+    width: fit-content;
+    padding: 12px;
+    border-radius: 7px;
+  
+}
+
+#Calculate-sum:hover{
+
+    background-color: rgb(144, 133, 36);;
+}
+
+#highlight-links:hover{
+
+    background-color: rgb(144, 133, 36);;
+}
+
+#display-data:hover{
+
+    background-color: rgb(144, 133, 36);;
+}
+
+#display-Information:hover{
+
+    background-color: rgb(144, 133, 36);;
+}
+
+#final-cal{
+    background-color: rgb(198, 182, 41);
+    font-weight: bold;
+    font-size: 55px;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 7px;
+    display: none;
+
+}
+
+a{
+
+    text-decoration: none;
+}
+
+.highlighted-links{
+
+    background-color: rgb(37, 181, 218);
+    padding:  2px 5px;
+    border-radius: 7px;
+
+}
+
+.input-parts{
+
+    display: flex;
+    margin-bottom: 10px;
+   
+}
+
+.input-parts input{
+
+    width:300px;
+    margin-left: 50px;
+}
+
